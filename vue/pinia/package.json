@@ -1,0 +1,71 @@
+{
+  "name": "template",
+  "version": "0.1.0",
+  "description": "Pinia App Template",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite --open",
+    "preview": "vite preview",
+    "lint": "eslint src",
+    "lint:fix": "yarn lint --fix"
+  },
+  "engines": {
+    "yarn": "1.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anorebel/templates/vue/pinia.git"
+  },
+  "author": "AnoRebel <hacker4rebel@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "template",
+    "Vue 3",
+    "Pinia",
+    "TailwindCSS",
+    "WindiCSS"
+  ],
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "dependencies": {
+    "@vueuse/core": "^6.5.3",
+    "@vueuse/integrations": "^6.5.3",
+    "axios": "^0.22.0",
+    "localforage": "^1.10.0",
+    "mitt": "^3.0.0",
+    "pinia": "^2.0.3",
+    "vue": "^3.2.21",
+    "vue-i18n": "^9.2.0-beta.16",
+    "vue-query": "^1.13.0",
+    "vue-router": "^4.0.12"
+  },
+  "devDependencies": {
+    "@headlessui/vue": "^1.4.1",
+    "@heroicons/vue": "^1.0.4",
+    "@intlify/vite-plugin-vue-i18n": "^2.5.0",
+    "@rollup/plugin-alias": "^3.1.8",
+    "@vitejs/plugin-vue": "^1.9.4",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-html": "^6.2.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "prettier": "^2.4.1",
+    "sass": "^1.43.4",
+    "vite": "^2.6.13",
+    "vite-plugin-windicss": "^1.3.0",
+    "windicss": "^3.1.9"
+  }
+}

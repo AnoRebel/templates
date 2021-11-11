@@ -1,0 +1,25 @@
+{
+  "env": {
+    "node": true,
+    "browser": true,
+    "es6": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:prettier/recommended",
+    "plugin:vue/vue3-essential",
+    "@vue/prettier",
+    "plugin:vue/recommended"
+  ],
+  "rules": {
+    "no-var": "error",
+    "no-unused-vars": "off",
+    "vue/no-unused-components": "warn",
+    "vue/html-self-closing": "off",
+    "vue/no-multiple-template-root": "off"
+  },
+  "root": true,
+  "parserOptions": {
+    "ecmaVersion": 2020
+  }
+}
