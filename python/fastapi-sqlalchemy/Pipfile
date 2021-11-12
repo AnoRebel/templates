@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = "*"
+strawberry = "*" # "strawberry-graphql[fastapi]"
+uvicorn = {extras = ["standard"], version = "*"}
+sqlalchemy = "*"
+databases = "*" # "databases[postgresql]"
+jinja2 = "*"
+# psycopg2 = "*"
+
+[dev-packages]
+mypy = "*"
+
+[scripts]
+dev = ""
+prod = ""
+
+[requires]
+python_version = "3.9"

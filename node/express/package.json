@@ -1,0 +1,60 @@
+{
+  "name": "template",
+  "version": "0.1.0",
+  "description": "Express App Template",
+  "private": true,
+  "scripts": {
+    "start": "node --optimize_for_size --max_old_space_size=920 --gc_interval=100 ./bin/www",
+    "dev": "NODE_ENV='development' nodemon --optimize_for_size --max_old_space_size=460 --gc_interval=100 ./bin/www"
+  },
+  "engines": {
+    "yarn": "1.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anorebel/templates/node/express.git"
+  },
+  "author": "AnoRebel <hacker4rebel@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "template",
+    "Node",
+    "Express",
+    "Nunjucks"
+  ],
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "dependencies": {
+    "argon2": "^0.28.2",
+    "cookie-parser": "^1.4.5",
+    "debug": "^4.3.2",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "express-oas-generator": "^1.0.41",
+    "nunjucks": "^3.2.3",
+    "http-errors": "^1.8.0",
+    "throng": "^5.0.0",
+    "sequelize": "^6.6.5",
+    "pg": "^8.7.1",
+    "pg-hstore": "^2.3.4",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "eslint": "^8.2.0",
+    "prettier": "^2.3.2",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "sequelize-cli": "^6.2.0",
+    "nodemon": "^2.0.15"
+  }
+}

@@ -1,7 +1,12 @@
 <script>
+import { useQueryProvider } from "vue-query";
+import { VueQueryDevTools } from "vue-query/devtools";
+
 export default {
   name: "App",
+  components: { VueQueryDevTools, },
   setup() {
+    useQueryProvider();
     return {};
   },
 };
@@ -14,6 +19,7 @@ export default {
       <component :is="Component" />
     </transition>
   </router-view>
+  <VueQueryDevTools />
 </template>
 
 <style scoped>
