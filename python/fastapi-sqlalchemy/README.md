@@ -1,1 +1,1 @@
-# pynector
+# FastAPI(SqlAlchemy) Template App
